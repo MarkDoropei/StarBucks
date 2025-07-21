@@ -27,6 +27,12 @@ h1, h2{
     margin:0 auto;
 }
 
+.text-gradient{
+    background: linear-gradient(263.46deg, #237249 3.14%, #35C66B 87.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .logo{
     font-family: 'Montserrat';
     font-weight: 800;
@@ -57,15 +63,28 @@ h1, h2{
     margin-left: 95px;
 }
 
-.stats_item span{
+.stats__item span{
     content: "+";
     font-size: 40px;
     color:#fff;
 }
 
-.stats_item span::after{
+.stats__item span::after{
     content: "+";
     font-size: 24px;
+    background: linear-gradient(263.46deg, #237249 3.14%, #35C66B 87.2%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title{
+    font-size: 80px;
+    line-height: 109%;
+    letter-spacing:-0.03em;
+    color:#fff;
+}
+
+.title span{
     background: linear-gradient(263.46deg, #237249 3.14%, #35C66B 87.2%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
